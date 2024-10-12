@@ -1,0 +1,9 @@
+@HelloWorldApi_HostAddress = http://localhost:8089
+
+GET {{HelloWorldApi_HostAddress}}/Hello/
+Accept: application/json
+
+###
+
+GET {{HelloWorldApi_HostAddress}}/
+Accept: application/json
