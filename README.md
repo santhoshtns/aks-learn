@@ -1,5 +1,4 @@
 # aks-learn
-
 Steps to Run docker image
 
 1. Docker build
