@@ -21,3 +21,8 @@
 **StatefulSet** - Manages the deployment and scaling of a set of [Pods](https://kubernetes.io/docs/concepts/workloads/pods/), *and provides guarantees about the ordering and uniqueness* of these Pods.
 
 ](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels)
+
+## Commands
+
+**To create a pod definition file**
+kubectl run redis --name=redis-pod --dry-run=client -o yaml

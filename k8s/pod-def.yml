@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  labels:
-    run: helloworld-pod
   name: helloworld-pod
+  labels:
+    app: helloworld-pod
+    type: api
 spec:
   containers:
   - image: helloworldapi:latest
